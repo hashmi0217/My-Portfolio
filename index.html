@@ -134,67 +134,6 @@
     </div>
   </section>
 
-  <!-- ===== showcase ===== -->
-  <!-- <section class="work-showcase">
-    <div class="about-container">
-      <h2 class="section-title">Showcase</h2>
-
-      <div class="projects-wrapper">
-
-        <div class="project-item">
-          <div class="project-card">
-            <div class="slider-box">
-              <div class="slide-track t1"> <img src="ss1.jpg" alt="Screen 1">
-                <img src="ss2.jpg" alt="Screen 2">
-                <img src="ss3.jpg" alt="Screen 3">
-                <img src="ss1.jpg" alt="Loop" class="loop-fix">
-              </div>
-
-              <div class="project-overlay">
-                <p>Modern architecture with AI-driven interface and smooth GSAP animations.</p>
-                <a href="#" class="view-btn">Live the Site</a>
-              </div>
-            </div>
-
-            <div class="project-info">
-              <span class="cat">Web Design • AI</span>
-              <h3>Modern Portfolio</h3>
-              <div class="tech-stack">
-                <span>GSAP</span><span>Python</span><span>AI</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-item">
-          <div class="project-card">
-            <div class="slider-box">
-              <div class="slide-track t2"> <img src="ss4.jpg" alt="Screen 1">
-                <img src="ss5.jpg" alt="Screen 2">
-                <img src="ss6.jpg" alt="Screen 3">
-                <img src="ss4.jpg" alt="Loop">
-              </div>
-
-              <div class="project-overlay">
-                <p>Full-stack e-commerce solution with secure payment gateway and minimal UI.</p>
-                <a href="#" class="view-btn">Live the Site</a>
-              </div>
-            </div>
-
-            <div class="project-info">
-              <span class="cat">E-Commerce • Security</span>
-              <h3>Digital Boutique</h3>
-              <div class="tech-stack">
-                <span>CSS3</span><span>Django</span><span>UX</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section> -->
-
   <!-- ===== Footer ===== -->
 
   <footer class="main-footer">
@@ -282,7 +221,6 @@
       render();
     };
 
-    /* ===== draw cover ===== */
     function drawImageCover(img) {
       const cw = canvas.width;
       const ch = canvas.height;
@@ -297,7 +235,6 @@
       ctx.drawImage(img, x, y, iw * scale, ih * scale);
     }
 
-    /* render frame */
     function render() {
       const img = images[imageSeq.frame];
       if (img && img.complete) {

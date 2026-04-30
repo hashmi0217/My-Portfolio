@@ -190,7 +190,6 @@ p { color: var(--muted); margin-top: 18px; line-height: 1.6; font-size: 1.1rem; 
   margin-bottom: 10px;
 }
 
-/* Special AI Glow Logic */
 .stat-item:last-child h4 {
   background: linear-gradient(to right, var(--accent), #00ffcc);
   -webkit-background-clip: text;
@@ -235,103 +234,6 @@ p { color: var(--muted); margin-top: 18px; line-height: 1.6; font-size: 1.1rem; 
   gap: 65px;
   margin-top: 50px;
 }
-
-/* Individual Project Container */
-.project-item {
-  flex: 1 1 calc(33.333% - 35px); /* Ek line mein 3, mobile pe khud adjust hoga */
-  min-width: 320px;
-}
-
-.project-card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 24px;
-  overflow: hidden;
-  transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.project-card:hover {
-  transform: translateY(-10px);
-  border-color: rgba(255,255,255,0.2);
-}
-
-.work-showcase {
-    margin-left: 110px;
-}
-
-/* Slider Box */
-.slider-box {
-  width: 100%;
-  height: 220px;
-  position: relative;
-  overflow: hidden;
-  background: #000;
-}
-
-.slide-track {
-  display: flex;
-  width: 400%; /* 4 images total (3 + 1 loop fix) */
-  height: 100%;
-}
-
-.slide-track img {
-  width: 25%; /* 100 / 4 */
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Animations - Separate and Clean */
-.t1 { animation: slideProject 12s infinite; }
-.t2 { animation: slideProject 12s infinite 2s; } /* 2s delay for variety */
-
-@keyframes slideProject {
-  0%, 20% { transform: translateX(0); }
-  25%, 45% { transform: translateX(-25%); }
-  50%, 70% { transform: translateX(-50%); }
-  75%, 95% { transform: translateX(-75%); }
-  100% { transform: translateX(0); }
-}
-
-/* Overlay Styling */
-.project-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.85);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 25px;
-  text-align: center;
-  opacity: 0;
-  transition: 0.3s;
-  backdrop-filter: blur(4px);
-}
-
-.project-card:hover .project-overlay { opacity: 1; }
-
-.project-overlay p {
-  color: #ddd;
-  font-size: 0.9rem;
-  margin-bottom: 20px;
-}
-
-/* Project Info (Bottom part) */
-.project-info { padding: 25px; }
-
-.cat { color: var(--accent); font-size: 0.7rem; letter-spacing: 2px; font-weight: 700; text-transform: uppercase; }
-.project-info h3 { margin: 10px 0; font-size: 1.4rem; color: #fff; }
-
-.tech-stack { display: flex; gap: 8px; flex-wrap: wrap; }
-.tech-stack span { 
-  font-size: 0.65rem; 
-  padding: 4px 10px; 
-  background: rgba(255,255,255,0.05); 
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  color: var(--muted);
-}
-
 
 /* Footer Styling */
 .main-footer {
