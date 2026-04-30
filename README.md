@@ -5,8 +5,6 @@ Professional Portfolio developed with a focus on immersive UX, high-performance 
 ## 🛠 Tech Stack
 - **Frontend:** HTML5, CSS3 (Modern Flex/Grid), JavaScript (ES6+)
 - **Animations:** GSAP (Scrollytelling), Canvas API
-- **Backend/Logic:** Python (Automation & Scripting)
-- **Security:** Ethical Hacking Fundamentals & Penetration Testing
 
 ## ✨ Key Features
 - **Cinematic Scrollytelling:** Scroll-based canvas frame sequence for a premium storytelling experience.
