@@ -1,3 +1,5 @@
+https://hashmi0217.github.io/My-Portfolio/
+
 # Nizam Uddin Hashmi | Digital Architect 🚀
 
 Professional Portfolio developed with a focus on immersive UX, high-performance animations, and secure architecture.
